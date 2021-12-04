@@ -6,7 +6,7 @@ import socket
 import pickle
 
 my_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-host = "192.168.56.1"
+host = ""
 port = 8888
 
 my_socket.connect((host, port))
