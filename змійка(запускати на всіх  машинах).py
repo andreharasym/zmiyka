@@ -4,7 +4,7 @@ import threading
 import pickle
 my_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 PORT = 8888
-ADDRESS = "192.168.56.1"
+ADDRESS = ""
 broadcast_list = []
 my_socket.bind((ADDRESS, PORT))
 
